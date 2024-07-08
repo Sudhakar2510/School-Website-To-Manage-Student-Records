@@ -7,7 +7,6 @@
 body{
     width: 100%;
     height: 100vh;
-    /* background-color: rgb(32, 28, 24); */
 }
 
 /* !nav bar */
@@ -110,14 +109,14 @@ body{
 }
 
 .nav-links a {
-    text-decoration: none; /* Remove underline */
-    color: black; /* Set the color of the text */
+    text-decoration: none; 
+    color: black; 
 }
 
 .nav-links h2 {
     color: #d7e188;
     font-family: monospace;
-    margin: 0 20px; /* Adjust margin to space out items */
+    margin: 0 20px; 
     cursor: pointer;
 }
 
@@ -556,19 +555,19 @@ section#contact-school {
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    width: 100%; /* Adjust width as needed */
-    background-color: #cbf7f2; /* Optional: set a background color for the section */
+    width: 100%; 
+    background-color: #cbf7f2; 
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .contact {
-    flex: 1; /* Take up remaining space */
+    flex: 1; 
     padding: 20px;
-    background-color: #9dbdd2; /* Dark blue background color */
-    color: #3d0404; /* Text color */
-    border-radius: 8px; /* Optional: add rounded corners */
-    margin-right: 20px; /* Spacing between .contact and .in-touch */
+    background-color: #9dbdd2; 
+    color: #3d0404; 
+    border-radius: 8px; 
+    margin-right: 20px; 
 }
 
 .contact p{
@@ -580,7 +579,7 @@ section#contact-school {
 }
 
 .in-touch {
-    flex: 1; /* Take up remaining space */
+    flex: 1; 
     padding: 20px;
 }
 
@@ -632,7 +631,6 @@ section#Academic-section {
 
 h2 {
     color: #1e90ff;
-    /* border-bottom: 2px solid #1e90ff; */
     padding-bottom: 5px;
     margin-bottom: 15px;
 }

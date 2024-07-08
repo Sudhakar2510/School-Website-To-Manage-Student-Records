@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!admin) {
         window.location.href = 'AdminLogin.html';
     } else {
-        // Populate adminId field with admin's id
+        // To Populate adminId field with admin's id
         document.getElementById('adminId').value = admin.id;
     }
 
@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
             student[key] = value;
         });
         
-        // Ensure adminId is set to the admin's id
+        // To Ensure adminId is set to the admin's id
         student.adminId = admin.id;
 
-        // Save student with adminId included
+        // To Save student with adminId 
         fetch('http://localhost:8080/saveStudent?id=' + admin.id, {
             method: 'POST',
             headers: {
@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
         .then(data => {
-            alert(data.message); // Display success message
-            // Optionally, redirect to admin dashboard or update UI
-            window.location.href = 'AdminForm.html';
+            alert(data.message); //To Display success message
+            
+            window.location.href = 'AdminForm.html'; // redirect to admin dashboard 
         })
         .catch(error => {
             console.error('Error:', error);

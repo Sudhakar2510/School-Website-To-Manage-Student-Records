@@ -36,23 +36,23 @@ input[type="submit"] {
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensure padding and border don't affect width */
+    box-sizing: border-box; 
     font-size: 16px;
 }
 
 input[type="submit"] {
-    background-color: #1e90ff; /* Dodger blue */
+    background-color: #1e90ff;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #007bff; /* Darker blue on hover */
+    background-color: #007bff;
 }
 
 #add-admin-message {
-    color: #e74c3c; /* Red */
+    color: #e74c3c;
     font-size: 14px;
     margin-top: 10px;
 }
@@ -61,7 +61,7 @@ input[type="submit"]:hover {
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background-color: #6c757d; /* Gray background */
+    background-color: #6c757d;
     color: white;
     border: none;
     border-radius: 4px;
@@ -71,5 +71,5 @@ input[type="submit"]:hover {
 }
 
 #go-back-btn:hover {
-    background-color: #5a6268; /* Darker gray on hover */
+    background-color: #5a6268;
 }

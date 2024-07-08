@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('username').value = student.username;
             document.getElementById('password').value = student.password;
 
-            // Store adminId in a hidden field or variable
+            // To Store adminId in a hidden field or variable
             const adminId = student.adminId; 
 
-            // Enable fields for editing
+            // This will Enable fields for editing
             document.getElementById('name').disabled = false;
             document.getElementById('age').disabled = false;
             document.getElementById('grade').disabled = false;

@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (!adminData || !adminData.students) {
                     throw new Error('Invalid response data');
                 }
-                const students = adminData.students; // Access the correct property
+                const students = adminData.students; // To Access the correct property
                 
                 const studentTableBody = document.getElementById('student-table-body');
                 
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 })
                 .then(data => {
                     alert('Student deleted successfully!');
-                    // Optionally, update the UI to remove the deleted student row
+                    // update the UI to remove the deleted student row
                     event.target.closest('tr').remove();
                 })
                 .catch(error => {

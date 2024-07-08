@@ -48,11 +48,6 @@ public class StudentController {
         return new ResponseEntity<>(new ApiResponse<>("Grade updated successfully", student, true), HttpStatus.OK);
     }
 
-//    @PutMapping("modifyAll/{id}")
-//    public ResponseEntity<ApiResponse<Student>> updateAll(@PathVariable Long id, @RequestBody Student s) {
-//        Student updatedStudent = studentService.updateAll(id, s);
-//        return new ResponseEntity<>(new ApiResponse<>("Student updated successfully", updatedStudent, true), HttpStatus.OK);
-//    }
     
     @PutMapping("modifyAll/{id}")
     public ResponseEntity<ApiResponse<Student>> updateAll(@PathVariable Long id, @RequestBody Student updatedStudent) {
@@ -65,7 +60,7 @@ public class StudentController {
         // Preserve the admin ID from the existing student
         updatedStudent.setAdmin(existingStudent.getAdmin());
 
-        Student savedStudent = studentService.save(updatedStudent); // Ensure your service method returns the saved entity correctly
+        Student savedStudent = studentService.save(updatedStudent); // to Ensure service method returns the saved entity correctly
         return new ResponseEntity<>(new ApiResponse<>("Student updated successfully", savedStudent, true), HttpStatus.OK);
     }
 

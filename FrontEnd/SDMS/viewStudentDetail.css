@@ -1,33 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffe6cc; /* warm beige background */
-    background-image: linear-gradient(to bottom, #df2117, #e45f0d); /* subtle gradient effect */
-    height: 100vh; /* set the body height to 100% of the viewport height */
-    margin: 0; /* remove default margin */
+    background-color: #ffe6cc; 
+    background-image: linear-gradient(to bottom, #df2117, #e45f0d);
+    height: 100vh; 
+    margin: 0; 
   }
   
   h1 {
     text-align: center;
-    color: #250214; /* bright pink color for the title */
+    color: #250214; 
     margin-bottom: 20px;
     font-size: 36px;
     font-weight: bold;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); /* subtle shadow effect */
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
   }
   
   #student-details {
     max-width: 400px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff; /* white background */
-    border: 1px solid #ffc107; /* bright orange border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow effect */
-    border-radius: 10px; /* rounded corners */
+    background-color: #fff; 
+    border: 1px solid #ffc107; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
   }
   
   #student-details h2 {
     margin-top: 0;
-    color: #009688; /* teal color for the subtitle */
+    color: #009688; 
   }
   
   #student-details p {
@@ -36,15 +36,15 @@ body {
   
   #student-details strong {
     font-weight: bold;
-    color: #6b0739; /* bright pink color for the labels */
+    color: #6b0739; 
   }
   
   #student-details span {
     font-size: 18px;
-    color: #337ab7; /* blue color for the values */
+    color: #337ab7; 
   }
   
-  /* Add some colorful icons to the labels */
+  
   #student-details strong:before {
     font-family: FontAwesome;
     margin-right: 5px;
@@ -55,11 +55,11 @@ body {
   }
   
   #student-name:before {
-    color: #25ac39; /* green color for the name icon */
+    color: #25ac39; 
   }
   
   #student-age:before {
-    color: #b36535; /* bright pink color for the age icon */
+    color: #b36535; 
   }
   
   #student-grade:before {
@@ -72,10 +72,10 @@ body {
   
   
   .logout-container {
-    margin-top: 20px; /* add some space between the student details and the button */
-    width: 100%; /* ensure the container takes full width */
+    margin-top: 20px; 
+    width: 100%; 
     display: flex;
-    justify-content: center; /* center the button horizontally */
+    justify-content: center; 
   }
   
   #logout-btn {
@@ -89,5 +89,5 @@ body {
   }
   
   #logout-btn:hover {
-    background-color: #00796b; /* slightly darker on hover */
+    background-color: #00796b;
   }
