@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Ensure full viewport height */
+}
+
+#add-student-form {
+  max-width: 700px;
+  width: 350px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #088215;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0feb25;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+#submit-btn {
+  font-weight: bold;
+  background-color: #2348af;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+  background-color: #d00606;
+}

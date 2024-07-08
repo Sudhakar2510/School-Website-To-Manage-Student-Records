@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border don't affect width */
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #1e90ff; /* Dodger blue */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #007bff; /* Darker blue on hover */
+}
+
+#add-admin-message {
+    color: #e74c3c; /* Red */
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#go-back-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6c757d; /* Gray background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#go-back-btn:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+}

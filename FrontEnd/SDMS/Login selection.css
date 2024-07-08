@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* !nav bar */
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #9897a9;
+    font-weight: bolder;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.school-info img {
+    width: 80px;
+    height: 70px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Name {
+    height: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f1c675;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.cbse #p1 {
+    height: 30px;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.cbse #p2 {
+    height: 15px;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.lcvs>h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("./books-4646129_1280ksdans.jpg");
+    background-clip: text;
+    color: transparent;
+
+}
+
+.contact-info {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav-links {
+    height: 50px;
+    width: 100%;
+    background-color: #34383e;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set the color of the text */
+}
+
+.nav-links h2 {
+    color: #d7e188;
+    font-family: monospace;
+    margin: 0 20px; /* Adjust margin to space out items */
+    cursor: pointer;
+}
+
+.nav-links h2:hover {
+    color: #e96507;
+}
+
+.school-info:hover {
+    cursor: pointer;
+}
+
+
+
+/* login selection */
+
+
+
+.login-section {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #007bff; /* Blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 20px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease;
+    font-size: 16px; /* Increased font size */
+}
+
+select:hover {
+    border-color: #007bff; /* Darker blue on hover */
+}
+
+/* Custom styling for options */
+option[value="student"] {
+    background-color: #28a745; /* Green for Student */
+    color: white;
+}
+
+option[value="admin"] {
+    background-color: #dc3545; /* Red for Admin */
+    color: white;
+}
+
+/* Styles for the home button */
+#home-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#home-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <link rel="stylesheet" href="./AdminForm.css">
+</head>
+<body>
+    <div id="admin-info">
+        <h1 id="admin-login">Admin Login</h1>
+    </div>
+    <button id="add-student-btn" onclick="window.open('addStudent.html', '_blank')">Add Student</button> <br><br>
+  
+    <table id="student-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Contact Info</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>CRUD Operations</th>
+            </tr>
+        </thead>
+        <tbody id="student-table-body">
+        </tbody>
+    </table>
+
+    <button id="logout-btn">Logout</button>
+
+    <script src="./AdminForm.js"></script>
+</body>
+</html>

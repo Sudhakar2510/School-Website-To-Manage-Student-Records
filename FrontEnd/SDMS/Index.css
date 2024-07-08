@@ -1,0 +1,660 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(32, 28, 24); */
+}
+
+/* !nav bar */
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: #9897a9;
+    font-weight: bolder;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.school-info img {
+    width: 80px;
+    height: 70px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Name {
+    height: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f1c675;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.cbse #p1 {
+    height: 30px;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.cbse #p2 {
+    height: 15px;
+    font-size: 10px;
+    color: #fff;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.lcvs>h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("./Images/books-4646129_1280ksdans.jpg");
+    background-clip: text;
+    color: transparent;
+
+}
+
+.contact-info {
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav-links {
+    height: 50px;
+    width: 100%;
+    background-color: #34383e;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set the color of the text */
+}
+
+.nav-links h2 {
+    color: #d7e188;
+    font-family: monospace;
+    margin: 0 20px; /* Adjust margin to space out items */
+    cursor: pointer;
+}
+
+.nav-links h2:hover {
+    color: #e96507;
+}
+
+.school-info:hover {
+    cursor: pointer;
+}
+
+
+/* !img slide show */
+.slideshow {
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
+.slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s;
+}
+
+.slideshow img.active {
+    opacity: 1;
+}
+
+.slideshow img:not(.active) {
+    opacity: 0;
+}
+
+#dottedimg {
+    height: 500px;
+    width: inherit;
+}
+
+#Home-section {
+    position: relative;
+}
+
+#dottedimg {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+/* !About Our School */
+.overlay {
+    position: absolute;
+    top: 1050px;
+    left: 550px;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #060606;
+}
+
+.Home-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.Admission {
+    height: 60px;
+    font-size: 20px;
+    position: absolute;
+    top: 955px;
+    right: 50px;
+    background-color: #FEA33D;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fill-the-form {
+    height: 80px;
+    width: 400px;
+    font-size: 20px;
+    position: absolute;
+    top: 1050px;
+    right: 50px;
+    background-color: #002147;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2F2582;
+}
+
+/* !infrastructure */
+.infrastructure {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+#inf-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.img-row img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px #ccc solid;
+    height: 300px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#view-more {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#view-more:hover {
+    background-color: #3e8e41;
+}
+
+/* !vip comments */
+.vip-comments {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.vipmessage {
+    font-size: 25px;
+}
+
+.vip-comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.vip-comment img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.vip-info {
+    flex: 1;
+}
+
+.vip-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.vip-info h4 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.vip-info p {
+    font-size: 14px;
+    color: #999;
+}
+
+/* !parents comments */
+.parents-comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parent-comment {
+    width: 45%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.parent-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.comment-text {
+    flex: 1;
+    margin: 10px;
+}
+
+.comment-text h3,
+.comment-text h4 {
+    margin-top: 0;
+}
+
+
+/* !About us */
+#school-poster{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.About-heading{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    color: rgb(0, 0, 0);
+    background-color: #3e8e41;
+}
+
+
+.founder-body{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    color: #e96507;
+   
+}
+.f1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+.p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #12e4c1;
+   
+}
+
+#founder{
+    height: 500px;
+    width: 500px;
+   
+}
+#white1{
+    width: 100%;
+    height: 1000px;
+}
+
+/* ?who we are */
+
+
+.who h2{
+    font-size: 36px;
+    padding: 20px;
+}
+
+.who {
+    line-height: 1.6;
+}
+
+h2 {
+    color: #333333;
+    font-size: 24px;
+
+}
+
+.who-we-are-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.who-we-are {
+    width: 60%;
+    padding: 20px;
+}
+
+p {
+    color: #666666;
+}
+
+b {
+    color: #000000;
+}
+
+.who-we-img img {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+
+/* ? founder message */
+
+
+.founder-message h2{
+    font-size: 36px;
+    padding: 25px;
+}
+.founder-message img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.founder-msg p{
+    height: 200px;
+    
+    padding: 20px;
+}
+.founder-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* ? principal message */
+.principal-message h2{
+    font-size: 36px;
+    padding: 25px;
+}
+.principal-message img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.principal-message p{
+    height: 200px;
+    
+    padding: 20px;
+}
+.principal-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/* ?vision  */
+.our-vision h2{
+    font-size: 36px;
+    padding: 25px;
+}
+.our-vision img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.our-vision p{
+    height: 200px;
+    
+    padding: 20px;
+}
+.our-vision-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* ? mission  */
+
+.our-mission h2{
+    font-size: 36px;
+    padding: 25px;
+}
+.our-mission img{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+.our-mission p{
+    height: 200px;
+    
+    padding: 20px;
+}
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* ? managing-committee */
+
+.managing-committee{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+}
+.managing-committee h1{
+    font-size: 34px;
+    padding: 30px;
+}
+
+.staff-details{
+    padding: 30px;
+}
+
+/* !contact */
+
+
+section#contact-school {
+    display: inline;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%; /* Adjust width as needed */
+    background-color: #cbf7f2; /* Optional: set a background color for the section */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a box shadow */
+}
+
+.contact {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    background-color: #9dbdd2; /* Dark blue background color */
+    color: #3d0404; /* Text color */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-right: 20px; /* Spacing between .contact and .in-touch */
+}
+
+.contact p{
+    color: #8a0505;
+}
+
+.contact h3 {
+    margin-bottom: 10px;
+}
+
+.in-touch {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+}
+
+.in-touch h2 {
+    margin-bottom: 10px;
+    color: #640404;
+}
+
+.in-touch form {
+    display: grid;
+    gap: 10px;
+}
+
+.in-touch input[type="text"],
+.in-touch input[type="email"],
+.in-touch input[type="tel"],
+.in-touch textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.in-touch input[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+/* !accademic */
+
+section#Academic-section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.Academic-right, .curriculum, .Sub-groups, .school-activities, .extra-curricular-activities, .field-trip {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #1e90ff;
+    /* border-bottom: 2px solid #1e90ff; */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Sub-groups p {
+    white-space: pre-line;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="./addStudent.css">
+</head>
+
+<body>
+
+    <h2>Add Student</h2>
+    <form id="add-student-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="grade">Grade:</label>
+        <input type="text" id="grade" name="grade" required><br><br>
+
+        <label for="contactInfo">Contact Info:</label>
+        <input type="text" id="contactInfo" name="contactInfo" required><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Visible adminId field -->
+        <label for="adminId">Admin ID:</label>
+        <input type="text" id="adminId" name="adminId" readonly>
+        
+        <button type="submit" id="submit-btn">Save Student</button>
+    </form>
+
+    <script src="./addStudent.js"></script>
+</body>
+</html>

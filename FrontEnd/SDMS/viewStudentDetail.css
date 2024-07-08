@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6cc; /* warm beige background */
+    background-image: linear-gradient(to bottom, #df2117, #e45f0d); /* subtle gradient effect */
+    height: 100vh; /* set the body height to 100% of the viewport height */
+    margin: 0; /* remove default margin */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #250214; /* bright pink color for the title */
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); /* subtle shadow effect */
+  }
+  
+  #student-details {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ffc107; /* bright orange border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow effect */
+    border-radius: 10px; /* rounded corners */
+  }
+  
+  #student-details h2 {
+    margin-top: 0;
+    color: #009688; /* teal color for the subtitle */
+  }
+  
+  #student-details p {
+    margin-bottom: 10px;
+  }
+  
+  #student-details strong {
+    font-weight: bold;
+    color: #6b0739; /* bright pink color for the labels */
+  }
+  
+  #student-details span {
+    font-size: 18px;
+    color: #337ab7; /* blue color for the values */
+  }
+  
+  /* Add some colorful icons to the labels */
+  #student-details strong:before {
+    font-family: FontAwesome;
+    margin-right: 5px;
+  }
+  
+  #student-id:before {
+    color: #337ab7;
+  }
+  
+  #student-name:before {
+    color: #25ac39; /* green color for the name icon */
+  }
+  
+  #student-age:before {
+    color: #b36535; /* bright pink color for the age icon */
+  }
+  
+  #student-grade:before {
+    color: #337ab7;
+  }
+  
+  #student-contact-info:before {
+    color: #337ab7;
+  }
+  
+  
+  .logout-container {
+    margin-top: 20px; /* add some space between the student details and the button */
+    width: 100%; /* ensure the container takes full width */
+    display: flex;
+    justify-content: center; /* center the button horizontally */
+  }
+  
+  #logout-btn {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #logout-btn:hover {
+    background-color: #00796b; /* slightly darker on hover */
+  }

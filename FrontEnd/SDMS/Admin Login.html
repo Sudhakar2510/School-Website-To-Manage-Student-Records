@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login Page</title>
+    <link rel="stylesheet" href="./Admin Login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Login</h2>
+        <form id="login-form">
+            <input type="text" name="username" id="username" placeholder="Username" required>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+        <button id="navigate-btn">Go to Login Selection</button>
+        <p id="login-message"></p>
+
+        <!-- Important note for new users -->
+        <div id="note">
+            <p><strong>Note:</strong> If no administrators have been added yet. Please add an administrator before proceeding. <br> <br> Additionally, you can add a new admin with this button. </p>
+            <button id="add-admin-btn">Add Admin</button>
+        </div>
+    </div>
+    <script src="./Admin Login.js"></script>
+</body>
+</html>
